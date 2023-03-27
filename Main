@@ -383,7 +383,7 @@ function initLibrary()
            Size = UDim2.new(1, 0, 0, 26),
            BorderColor3 = Color3.fromRGB(32, 32, 32),
            Position = UDim2.new(0, 0, 0, 26),
-           BackgroundColor3 = Color3.fromRGB(32, 32, 32),
+           BackgroundColor3 = Color3.fromRGB(20, 20, 20),
            Parent = main
        })
 
@@ -548,7 +548,7 @@ function initLibrary()
                    Size = UDim2.new(1, -2, 1, -2),
                    BorderColor3 = Color3.fromRGB(22, 22, 22),
                    Position = UDim2.new(0, 1, 0, 1),
-                   BackgroundColor3 = Color3.fromRGB(32, 32, 32),
+                   BackgroundColor3 = Color3.fromRGB(20, 20, 20),
                    Parent = sectionHolder
                })
                
@@ -556,7 +556,7 @@ function initLibrary()
                    ZIndex = 3,
                    Size = UDim2.new(1, 0, 0, 24),
                    BorderSizePixel = 0,
-                   BackgroundColor3 = Color3.fromRGB(32, 32, 32),
+                   BackgroundColor3 = Color3.fromRGB(20, 20, 20),
                    Parent = section
                })
 
@@ -678,7 +678,7 @@ function initLibrary()
                        Size = UDim2.new(0, specialLabel.TextBounds.X + 6, 0, 1),
                        Position = UDim2.new(0.5, -((specialLabel.TextBounds.X + 6) / 2), 0.5, 1),
                        BorderSizePixel = 0,
-                       BackgroundColor3 = Color3.fromRGB(32, 32, 32),
+                       BackgroundColor3 = Color3.fromRGB(28, 28, 28),
                        Parent = specialLabel
                    })
 
